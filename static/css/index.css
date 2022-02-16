@@ -1,0 +1,25 @@
+.kuang{
+   margin-top:10px;
+}
+.title {
+  margin-top:10px;
+  margin-right:20px;
+  margin-bottom:10px;
+  margin-left:20px;
+  font-family: "Arial Black";
+  font-weight: bold;
+}
+.content {
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  color: gray;
+}
+.author{
+  text-align: right;
+  font-family: "Bell MT"
+}
+.time{
+  text-align: right;
+  font-family: "Bell MT"
+}

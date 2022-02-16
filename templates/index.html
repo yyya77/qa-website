@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}果园小墙{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+{% endblock %}
+
+{% block body %}
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      {% for question in questions %}
+      <div class="shadow p-2 mb-3 bg-white rounded kuang">
+          <div class="title"><a href="{{url_for('qa.question_detail',question_id=question.id)}}">{{question.title}}</a></div>
+          <div class="content ">{{question.content}}</div>
+          <div class="author">{{question.author.username}}</div>
+          <div class="time">{{question.create_time}}</div>
+          </div>
+        {% endfor %}
+    </div>
+    <div class="col"></div>
+  </div>
+{% endblock %}

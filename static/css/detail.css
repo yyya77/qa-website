@@ -1,0 +1,33 @@
+.title{
+    padding: 10px;
+    text-align: center;
+}
+
+.question_imf{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Bell MT";
+}
+
+.q-content{
+    font-size: 20px
+}
+
+.comment-group{
+    text-align: left;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.create-time{
+    float: right;
+    font-family: "Bell MT";
+    padding-right: 10px;
+}
+
+.cpomment-content{
+}
